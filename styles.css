@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background: #242d3e;
+    color: white;
+    text-align: center;
+}
+
+.icon p {
+    margin-top: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Unbounded', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.gold{
+    font-family: 'Unbounded', cursive;
+}
+
+
+.border-tb {
+    border-top: 2px solid #4a4f55;
+    border-bottom: 2px solid #4a4f55;
+}
+
+main h2
+ {
+    color: #303542;
+ }
+
+section{
+    margin: 30px 0;
+}
+
+.gold{
+    color: #7a6b51;
+}
+
+/* #small {
+    font-size: 0.8em;
+}	 */
+
+#bg-gray{
+    background-color: #eeeef0;
+}
+
+li{
+  padding: 5px;  
+}
