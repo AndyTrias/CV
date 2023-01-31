@@ -12,5 +12,6 @@ fetch('https://randomuser.me/api/')
     document.querySelector('#email').innerHTML=email;
     document.querySelector('#phone').innerHTML=phone;
     document.querySelector('#address').innerHTML=address;
+    document.querySelector('#initial').innerHTML= fname.charAt(0) +  ' | ' + fname.slice(-1);;
 
   });
