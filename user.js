@@ -7,11 +7,12 @@ fetch('https://randomuser.me/api/')
     const phone = user.phone;
     const picture = user.picture.large;
     const address = `${user.location.street.name} ${user.location.street.number}`;
+    const initials = fname.charAt(0) +  ' | ' + user.name.last.charAt(0);
     document.querySelector('#ruser').src=picture;
     document.querySelector('h1').innerHTML=fname;
     document.querySelector('#email').innerHTML=email;
     document.querySelector('#phone').innerHTML=phone;
     document.querySelector('#address').innerHTML=address;
-    document.querySelector('#initial').innerHTML= fname.charAt(0) +  ' | ' + fname.slice(-1);;
+    document.querySelector('#initial').innerHTML= initials;
 
   });
