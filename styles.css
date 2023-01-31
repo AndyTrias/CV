@@ -22,7 +22,7 @@ h5 {
     font-weight: bold;
 }
 
-.gold{
+.cursive{
     font-family: 'Unbounded', cursive;
 }
 
@@ -44,10 +44,6 @@ section{
 .gold{
     color: #7a6b51;
 }
-
-/* #small {
-    font-size: 0.8em;
-}	 */
 
 #bg-gray{
     background-color: #eeeef0;

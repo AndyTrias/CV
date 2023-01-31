@@ -23,39 +23,39 @@
 <body>
     <div class="container-md">
         <header class="py-3">
-            <h4 class="py-2 fs-3 gold">A | S</h4>
+            <h4 class="py-2 fs-3 gold cursive">A | S</h4>
             <h1 class="pt-2 fw-bold display-4">Anita Schmidt</h1>
-            <h4 class="fw-bold mb-5 fs-3 gold">Marketing Manager</h4>
+            <h4 class="fw-bold mb-5 fs-3 gold cursive">Marketing Manager</h4>
             <div class="d-flex flex-wrap justify-content-around">
                 <div class="icon px-5">
-                    <i class="gold fa-solid fa-location-pin fa-2xl"></i>
-                    <p>8456 Lakeview St</p>
+                    <i class="gold cursive fa-solid fa-location-pin fa-2xl"></i>
+                    <p id="address"></p>
                 </div>
                 <div class="icon px-5">
-                    <i class=" gold fa-solid fa-phone fa-2xl"></i>
-                    <p>(612) 919-8385</p>
+                    <i class=" gold cursive fa-solid fa-phone fa-2xl"></i>
+                    <p id="phone"></p>
                 </div>
                 <div class="icon px-5 ">
-                    <i class="gold fa-solid fa-envelope fa-2xl"></i>
-                    <p id="small">anita.schmidt@example.com</p>
+                    <i class="gold cursive fa-solid fa-envelope fa-2xl"></i>
+                    <p id="email"></p>
                 </div>
             </div>
         </header>
         <main>
             <div class="row m-0 ">
                 <div class="text-center col-12 col-lg-4 pt-5" id="bg-gray">
-                    <img src="https://randomuser.me/api/portraits/women/20.jpg"
-                        class="img-fluid mx-auto d-block rounded">
+                    <img alt='random user' id="ruser"
+                        class="img-fluid mx-auto d-block rounded-circle">
                     <h2 class="my-3 py-2 border-tb">educación</h2>
 
                     <section>
                         <h3 class=" fs-5 mb-0">Universidad de Buenos Aires</h3>
-                        <p class="fs-6 gold">Licenciatura en Economía</p>
+                        <p class="fs-6 gold cursive">Licenciatura en Economía</p>
                         <p>Donec in nisi maximus est sodales dignissim. Proin ligula ipsum, aliquam at tempor non, elementum at nibh. Sed scelerisque non felis a fringilla</p>
                     </section>
                     <section>
                         <h3 class="fs-5 mb-0">Universidad de Palermo</h3>
-                        <p class="fs-6 gold">Licenciatura en Publicidad</p>
+                        <p class="fs-6 gold cursive">Licenciatura en Publicidad</p>
                         <p>Phasellus imperdiet aliquet eros, ac lacinia felis mattis eu. Proin venenatis congue congue. Curabitur ornare nibh turpis, sed hendrerit leo faucibus sit amet.</p>
                     </section>
                     <section>
@@ -79,7 +79,7 @@
                     <h2 class="my-3 py-2 border-tb">Experiencia Laboral</h2>
                     <section class="border p-3">
                         <h3 class=" fs-5 mb-0">Diseño Gráfico</h3>
-                        <p class="fs-6 m-0 gold">Google</p>
+                        <p class="fs-6 m-0 gold cursive">Google</p>
                         <p>2014-2019</p>
                         <p>Donec ultricies condimentum diam in congue. Aenean a nisi nunc. Pellentesque congue varius
                             posuere. Praesent et nisi ut sem aliquam pretium a quis metus. Phasellus sed mattis orci, eu
@@ -88,7 +88,7 @@
                     </section>
                     <section class="border p-3">
                         <h3 class=" fs-5 mb-0">Interiorista</h3>
-                        <p class="fs-6 m-0 gold">Samsung</p>
+                        <p class="fs-6 m-0 gold cursive">Samsung</p>
                         <p>2019-2023</p>
 
                         <p>Vivamus sagittis elementum bibendum. Nulla ullamcorper dolor ut nisi pharetra, in fringilla
@@ -115,6 +115,7 @@
             </div>
         </main>
     </div>
+    <script src="user.js"></script>
 </body>
 
 </html>
